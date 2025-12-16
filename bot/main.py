@@ -3,7 +3,6 @@ from telegram.ext import Updater, CommandHandler
 from bot.config import Config
 
 config = Config()
-config.show_label()
 
 def main():
     
