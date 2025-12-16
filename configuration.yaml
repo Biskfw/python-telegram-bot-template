@@ -1,0 +1,8 @@
+prod:
+  botname: Forex AI Bot
+  username: forex_ai_bot
+  token: "8514797461:AAHXgAMkLdZKCUMT_a-sVJ9igm8_vWOavkI"
+  about: "Bot AI Forex"
+  description: "Bot analisa forex otomatis"
+
+mode: polling
