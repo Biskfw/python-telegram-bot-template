@@ -1,4 +1,4 @@
-from handlers.index import index
+from bot.handlers.index import index
 from telegram.ext import Updater, CommandHandler
 from configuration import Config
 
