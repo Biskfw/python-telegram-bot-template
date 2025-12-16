@@ -1,4 +1,4 @@
-from configuration import Config
+from bot.config import Config
 from handlers.index import index
 from telegram.ext import Application
 
