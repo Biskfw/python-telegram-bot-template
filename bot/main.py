@@ -2,7 +2,7 @@ from bot.handlers.index import index
 from telegram.ext import Updater, CommandHandler
 from bot.config import Config
 
-config = Config('configuration.yaml')
+config = Config()
 config.show_label()
 
 def main():
