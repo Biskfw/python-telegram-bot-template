@@ -1,8 +1,6 @@
 prod:
   botname: Forex Bot
   username: signal_forex_id_bot
-  token: "8514797461:AAHXgAMkLdZKCUMT_a-sVJ9igm8_vWOavkI"
-  about: "Bot Telegram Forex"
-  description: "Bot Forex berjalan di Railway"
+  token: 8514797461:AAHXgAMkLdZKCUMT_a-sVJ9igm8_vWOavkI
 
 mode: prod
