@@ -1,8 +1,8 @@
 prod:
-  botname: Forex AI Bot
-  username: forex_ai_bot
+  botname: Forex Bot
+  username: signal_forex_id_bot
   token: "8514797461:AAHXgAMkLdZKCUMT_a-sVJ9igm8_vWOavkI"
-  about: "Bot AI Forex"
-  description: "Bot analisa forex otomatis"
+  about: "Bot Telegram Forex"
+  description: "Bot Forex berjalan di Railway"
 
-mode: polling
+mode: prod
