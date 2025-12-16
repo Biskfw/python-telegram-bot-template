@@ -1,16 +1,14 @@
-from bot.handlers.index import index
-from telegram.ext import Updater, CommandHandler
-from bot.config import Config
-
-config = Config()
+from configuration import Config
+from handlers.index import index
+from telegram.ext import Application
 
 def main():
-    
-    updater = Updater(config.token)
-    dp = updater.dispatcher
-    for k,v in index().items():
-        dp.add_handler(CommandHandler(k, v))
-    updater.start_polling()
-    updater.idle()
+    config = Config()
 
-main()
+    app = Application.builder().token(config.bot_token).build()
+    index(app)
+
+    app.run_polling()
+
+if __name__ == "__main__":
+    main()
